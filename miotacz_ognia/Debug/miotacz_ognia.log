@@ -1,0 +1,17 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_Quit przywołany w funkcji _SDL_main
+Main.obj : error LNK2019: nierozpoznany zewnętrzny symbol _IMG_Quit przywołany w funkcji _SDL_main
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_GetError przywołany w funkcji "void __cdecl Error::LogSDL(class std::basic_ostream<char,struct std::char_traits<char> > &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LogSDL@Error@@YAXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z)
+Texture.obj : error LNK2001: nierozpoznany symbol zewnętrzny _SDL_GetError
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_CreateWindow przywołany w funkcji "public: __thiscall Renderer::Renderer(void)" (??0Renderer@@QAE@XZ)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_DestroyWindow przywołany w funkcji "void __cdecl cleanup<struct SDL_Window>(struct SDL_Window *)" (??$cleanup@USDL_Window@@$$V@@YAXPAUSDL_Window@@@Z)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_CreateRenderer przywołany w funkcji "public: __thiscall Renderer::Renderer(void)" (??0Renderer@@QAE@XZ)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_SetRenderDrawColor przywołany w funkcji "public: void __thiscall Renderer::RenderPresent(void)" (?RenderPresent@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_RenderClear przywołany w funkcji "public: void __thiscall Renderer::Clear(void)" (?Clear@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_RenderPresent przywołany w funkcji "public: void __thiscall Renderer::RenderPresent(void)" (?RenderPresent@Renderer@@QAEXXZ)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_DestroyRenderer przywołany w funkcji "void __cdecl cleanup<struct SDL_Renderer>(struct SDL_Renderer *)" (??$cleanup@USDL_Renderer@@$$V@@YAXPAUSDL_Renderer@@@Z)
+Renderer.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_Init przywołany w funkcji "public: __thiscall Renderer::Renderer(void)" (??0Renderer@@QAE@XZ)
+Texture.obj : error LNK2019: nierozpoznany zewnętrzny symbol _SDL_DestroyTexture przywołany w funkcji "void __cdecl cleanup<struct SDL_Texture>(struct SDL_Texture *)" (??$cleanup@USDL_Texture@@$$V@@YAXPAUSDL_Texture@@@Z)
+Texture.obj : error LNK2019: nierozpoznany zewnętrzny symbol _IMG_LoadTexture przywołany w funkcji "public: __thiscall Texture::Texture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class Renderer &)" (??0Texture@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVRenderer@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany zewnętrzny symbol _main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Bartek\Documents\Visual Studio 2017\Projects\c++\miotacz_ognia\Debug\miotacz_ognia.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 14
